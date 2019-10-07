@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body>
 
-<div class="mdui-appbar">
+<div class="mdui-appbar mdui-ripple">
   <div class="mdui-toolbar mdui-color-indigo">
     <!--a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><i class="mdui-icon material-icons">menu</i></a-->
     <a href="http://www.shuo.ml" class="mdui-typo-headline"><!--MDUI链接--></a>
@@ -50,9 +51,27 @@
 <p></p>
 <div class="mdui-container">
   <div class="mdui-row">
-    <div class="mdui-col-sm-6 mdui-col-md-4">
-      <div class="mdui-card">
-        <div class="mdui-card-media">
+    <div class="mdui-col-sm-6 mdui-col-md-4" style="margin-right:20px;">
+      <div class="mdui-card ">
+        <div class="mdui-card-media mdui-ripple">
+          <img src="//www.mdui.org/docs/assets/docs/img/card.jpg"/>
+          <div class="mdui-card-media-covered">
+            <div class="mdui-card-primary">
+              <div class="mdui-card-primary-title">Title</div>
+              <div class="mdui-card-primary-subtitle">Subtitle</div>
+            </div>
+          </div>
+        </div>
+        <div class="mdui-card-actions">
+          <button class="mdui-btn mdui-ripple">action 1</button>
+          <button class="mdui-btn mdui-ripple">action 2</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mdui-col-sm-6 mdui-col-md-4" style="float: right">
+      <div class="mdui-card ">
+        <div class="mdui-card-media mdui-ripple">
           <img src="//www.mdui.org/docs/assets/docs/img/card.jpg"/>
           <div class="mdui-card-media-covered">
             <div class="mdui-card-primary">
@@ -69,6 +88,7 @@
     </div>
   </div>
 </div>
+
 
 <script src="https://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
 </body>
